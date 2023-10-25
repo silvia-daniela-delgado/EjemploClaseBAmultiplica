@@ -1,0 +1,178 @@
+/* Establece el estilo de fuente predeterminado para el cuerpo de la página */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 1rem;
+}
+
+/* Estilo de la lista no ordenada en la barra de navegación */
+nav ul {
+   list-style: none;
+   padding: 0;
+}
+
+/* Estilo de los elementos de la lista de navegación */
+nav li {
+   display: inline;
+   margin-right: 20px;
+}
+
+/* Estilo de los enlaces de navegación */
+nav a {
+   color: #fff;
+   text-decoration: none;
+}
+
+/* Estilo del contenido principal */
+main {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+/* Estilo de la sección 'intro' */
+.intro {
+   background-color: #f9f9f9;
+   padding: 20px;
+   text-align: center;
+}
+
+/* Estilo de la sección 'features' */
+.features {
+   background-color: #e0e0e0;
+   padding: 20px;
+}
+
+/* Estilo del contenedor del carrusel de imágenes */
+.image-slider {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px 0;
+}
+
+/* Estilo de los elementos individuales del carrusel */
+.slider-item {
+   flex: 0 0 calc(25% - 20px);
+   max-width: calc(25% - 20px);
+   height: 200px;
+   margin-right: 20px;
+   padding: 10px;
+   box-sizing: border-box;
+   overflow: hidden;
+   position: relative;
+}
+
+/* Estilo de las imágenes dentro del carrusel */
+.slider-item img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   animation: slideIn 3s linear infinite;
+}
+
+/* Definición de la animación 'slideIn' */
+@keyframes slideIn {
+  0% {
+     transform: translateX(100%);
+  }
+  100% {
+     transform: translateX(0);
+  }
+}
+
+/* Estilo del formulario de contacto */
+.contact-form {
+   background-color: #f9f9f9;
+   padding: 20px;
+}
+
+/* Estilo del título 'h4' en el formulario de contacto */
+.contact-form h4 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+/* Estilo del formulario de contacto y sus elementos */
+.contact-form form {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+}
+
+/* Estilo de las etiquetas del formulario */
+.contact-form label {
+   font-weight: bold;
+}
+
+/* Estilo de los campos de entrada y área de texto en el formulario de contacto */
+.contact-form input,
+.contact-form textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+}
+
+/* Estilo de los botones y transiciones de color */
+button {
+   transition-property: background-color;
+   transition-duration: 0.3s;
+   transition-timing-function: ease;
+   transition-delay: 0s;
+}
+
+/* Estilo de botones al pasar el cursor sobre ellos */
+button:hover {
+   background-color: #ff5733;
+}
+
+/* Estilo del contenedor del carrusel */
+.slider-container {
+   width: 100%;
+   overflow: hidden;
+}
+
+/* Estilo del contenedor del carrusel de imágenes */
+.carousel-container {
+   display: flex;
+   overflow: hidden;
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+/* Estilo de las diapositivas del carrusel */
+.carousel-slide {
+   flex: 0 0 100%;
+}
+
+/* Estilo de las imágenes dentro de las diapositivas del carrusel */
+.carousel-slide img {
+   width: 100%;
+   height: auto;
+}
+
+/* Estilo de botones */
+button {
+   margin: 10px;
+   padding: 10px 20px;
+   background-color: #0074d9;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+/* Estilo de botones al pasar el cursor sobre ellos */
+button:hover {
+   background-color: #0056a4;
+}
+
+
+

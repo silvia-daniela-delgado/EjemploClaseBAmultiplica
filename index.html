@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/reset.css"> <!-- Enlace al archivo CSS reset -->
+        <link rel="stylesheet" href="CSS/styles.css"> <!-- Enlace al archivo CSS personalizado -->
+        <title>Ejemplo de diseño responsivo</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Mi Pagina Web Responsiva</h1> <!-- Encabezado principal -->
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li> <!-- Enlace de navegación: Inicio -->
+                    <li><a href="#">Acerca de</a></li> <!-- Enlace de navegación: Acerca de -->
+                    <li><a href="#">Servicios</a></li> <!-- Enlace de navegación: Servicios -->
+                    <li><a href="#">Contacto</a></li> <!-- Enlace de navegación: Contacto -->
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="intro">
+                <h2>Bienvenido a nuestra pagina web</h2> <!-- Título de la sección intro -->
+                <p>Somos una empresa dedicada a....</p> <!-- Texto de la sección intro -->
+            </section>
+            <section class="features">
+                <h3>Nuestros Servicios</h3> <!-- Título de la sección features -->
+                <ul>
+                    <li>Servicio 1</li> <!-- Lista de servicios: Servicio 1 -->
+                    <li>Servicio 2</li> <!-- Lista de servicios: Servicio 2 -->
+                    <li>Servicio 3</li> <!-- Lista de servicios: Servicio 3 -->
+                </ul>
+            </section>
+
+            <section class="image-slider">
+                <!-- Carrusel de imágenes -->
+                <div class="slider-item">
+                    <img src="IMG/imagen1.jpeg" alt="Imagen 1"> <!-- Imagen 1 con descripción -->
+                </div>
+                <div class="slider-item">
+                    <img src="IMG/imagen2.jpeg" alt="Imagen 2"> <!-- Imagen 2 con descripción -->
+                </div>
+                <div class="slider-item">
+                    <img src="IMG/imagen3.jpeg" alt="Imagen 3"> <!-- Imagen 3 con descripción -->
+                </div>
+                <div class="slider-item">
+                    <img src="IMG/imagen4.jpeg" alt="Imagen 4"> <!-- Imagen 4 con descripción -->
+                </div>
+            </section>
+
+            <section class="image-slider">
+                <div class="carousel-container"> <!-- Contenedor del carrusel de imágenes -->
+                    <div class="carousel-slide">
+                        <img src="IMG/imagen1.jpeg" alt="Imagen 1"> <!-- Imagen 1 en el carrusel -->
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="IMG/imagen2.jpeg" alt="Imagen 2"> <!-- Imagen 2 en el carrusel -->
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="IMG/imagen3.jpeg" alt="Imagen 3"> <!-- Imagen 3 en el carrusel -->
+                    </div>
+                </div>
+                <button id="prevButton">Anterior</button> <!-- Botón "Anterior" del carrusel -->
+                <button id="nextButton">Siguiente</button> <!-- Botón "Siguiente" del carrusel -->
+            </section>
+            
+            <section class="contact-form">
+                <h4>Contacto</h4> <!-- Título de la sección de formulario de contacto -->
+                <form id="contactForm">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required> <!-- Campo de nombre -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required> <!-- Campo de email -->
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea> <!-- Área de mensaje -->
+                    <button type="submit">Enviar</button> <!-- Botón de envío del formulario -->
+                </form>
+                <!-- Botones adicionales en la sección de formulario de contacto -->
+                <button id="showAlertButton">Mostrar Alerta</button> <!-- Botón para mostrar una alerta -->
+                <button id="changeColorButton">Cambiar Color</button> <!-- Botón para cambiar el color de fondo -->
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2023 Mi pagina web</p> <!-- Pie de página con el año de copyright -->
+        </footer>
+        <script src="Scripts/script.js"></script> <!-- Enlace al archivo JavaScript -->
+    </body>
+</html>
+
+
